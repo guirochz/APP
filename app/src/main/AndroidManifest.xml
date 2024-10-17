@@ -34,19 +34,10 @@
             android:name=".linharua"
             android:exported="false" />
         <activity
-            android:name=".ponto4"
-            android:exported="false" />
-        <activity
-            android:name=".linha4"
-            android:exported="false" />
-        <activity
             android:name=".cadastro2"
             android:exported="false" />
         <activity
             android:name=".esqueci"
-            android:exported="false" />
-        <activity
-            android:name=".esquecisenha4"
             android:exported="false" />
         <activity
             android:name=".esquecisenha3"
@@ -94,7 +85,7 @@
             android:name=".faleconosco"
             android:exported="false" />
         <activity
-            android:name=".cadastro"
+            android:name=".Cadastro"
             android:exported="false" />
         <activity
             android:name=".esquecisenha2"
@@ -109,7 +100,7 @@
             android:name=".perfil"
             android:exported="false" />
         <activity
-            android:name=".login"
+            android:name=".Login"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

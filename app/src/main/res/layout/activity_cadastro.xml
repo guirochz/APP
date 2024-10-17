@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/fundo"
-    tools:context=".cadastro">
+    tools:context=".Cadastro">
 
     <TextView
         android:id="@+id/title_cadastrese"
@@ -27,7 +27,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
     
-    <EditText
+    <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/edit_nome"
         style="@style/Edit_Text"
         android:hint="Nome"
@@ -36,7 +36,7 @@
         app:layout_constraintStart_toStartOf="@id/containerComponents"
         app:layout_constraintEnd_toEndOf="@id/containerComponents"/>
 
-    <EditText
+    <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/edit_email"
         style="@style/Edit_Text"
         android:hint="Email"
@@ -46,7 +46,7 @@
         app:layout_constraintStart_toStartOf="@id/containerComponents"
         app:layout_constraintEnd_toEndOf="@id/containerComponents"/>
 
-    <EditText
+    <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/edit_senha"
         style="@style/Edit_Text"
         android:hint="Senha"

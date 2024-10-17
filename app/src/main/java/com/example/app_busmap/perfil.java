@@ -32,7 +32,7 @@ public class perfil extends AppCompatActivity {
     }
     public void deslogando(View view) {
         // Lógica para abrir outra Activity ou qualquer outra ação
-        Intent intent = new Intent(this, login.class);
+        Intent intent = new Intent(this, Login.class);
         startActivity(intent);
     }
     public void abrindo_fale(View view) {

@@ -16,7 +16,7 @@ public class esqueci extends AppCompatActivity {
 
     public void abrindo_login(View view) {
         // Lógica para abrir outra Activity ou qualquer outra ação
-        Intent intent = new Intent(this, login.class);
+        Intent intent = new Intent(this, Login.class);
         startActivity(intent);
     }
 }

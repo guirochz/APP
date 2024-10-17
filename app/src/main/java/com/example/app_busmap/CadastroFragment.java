@@ -47,9 +47,13 @@ public class CadastroFragment extends Fragment {
                         edtEmail.getText().toString(),
                         edtSenha.getText().toString());
 
-                int res = Usuario.inserirUsuario(usuario, getContext());
+                int res = CadastroBanco.inserirCadastro(usuario, getContext());
                 if(res<=0){
                     Snackbar.make(botaoCadastrar, "Inserção não realizada!",
+                            Snackbar.LENGTH_LONG).show();
+                }else{
+                    Snackbar.make(view, "Colaborador Inserido com " +
+                                    "Sucesso!",
                             Snackbar.LENGTH_LONG).show();
                 }
             }

@@ -11,17 +11,20 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class login extends AppCompatActivity {
+public class Login extends AppCompatActivity {
 
     private TextView text_tela_cadastro;
     private Button bt_entrar; // Adicionando a variável para o botão
     private EditText editUser; // Campo de Usuário
     private EditText editSenha; // Campo de Senha
+    private String nome;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+
 
         // Inicializando os componentes
         IniciarComponents();
@@ -30,7 +33,7 @@ public class login extends AppCompatActivity {
         text_tela_cadastro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(login.this, cadastro.class);
+                Intent intent = new Intent(Login.this, Cadastro.class);
                 startActivity(intent);
             }
         });
